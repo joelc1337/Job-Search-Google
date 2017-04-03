@@ -24,3 +24,15 @@ left: 0;
   margin:1% 0;
   height:5vh;
 }
+
+.col-xs-2_col-xs-offset-2{
+  margin-left:50px;
+}
+div{
+    width: 100px;
+    border: 2px solid green;
+    padding: 25px;
+}
+#spec_div{
+  width: 200px;
+}

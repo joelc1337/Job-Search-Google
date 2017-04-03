@@ -1,6 +1,6 @@
 # Job-Search-Google
 
-By Joel Colon and Luis Abreu
+By Joel Colon, Luis Abreu, and Yves.
 
 Problem: Many students have little to no work experience and have trouble finding entry level jobs near them.
 
