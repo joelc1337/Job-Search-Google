@@ -42,3 +42,15 @@ text-align:center;
  th,td{
   width:30%;
 }
+
+.col-xs-2_col-xs-offset-2{
+  margin-left:50px;
+}
+div{
+    width: 100px;
+    border: 2px solid green;
+    padding: 25px;
+}
+#spec_div{
+  width: 200px;
+}
