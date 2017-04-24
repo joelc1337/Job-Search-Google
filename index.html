@@ -1,53 +1,98 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Insert Title Here! </title>
 
-    <!-- Libraries -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css  ">
-
-    <!-- Externals -->
-    <script type="text/javascript" src="script.js"></script>
+<head>
+    <title>Job-Search</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 
-  <body>
-
-    <header>
-      <nav>
-        <h2>Job-Search</h2>
-      </nav>
-    </header>
-    <section>
-      <!-- automatically retrieve this later -->
-      <div class="container">
-
-        <input id="location" class="col-xs-2 col-xs-offset-1" type="text" name="" value="">
-        <select class="col-xs-2 col-xs-offset-2" name="">
-          <option value="Food">Food</option>
-          <option value="Retail">Retail</option>
-          <option value="Internships">Internships</option>
-        </select>
-        <button type="button" class="col-xs-2 col-xs-offset-2" name="button">Submit</button>
+<body>
+  <header>
+    <h1> Job-Search Project </h1>
+  </header>
+  <div id="content">
+      <div>
+          <input id="location" placeholder="Location xx,xx" type="text">
+          <input id="job" placeholder="Job type" type="text">
+          <input id="submit" value="Submit" type="button">
       </div>
-      <div class="container">
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
-        <div class="row col-xs-12">test</div>
+      <input id="jobtype" type="checkbox" value="Part-time" name="job"> Part-time
+      <input id="full" type="checkbox" value="Full-Time" name="job"> Full-Time
+      <input id="int" type="checkbox" value="internship" name="job"> Internship
+
+      <div id="results">
+        <h1> Results </h1>
+        <table>
+          <!-- example input -->
+          <tr>
+            <th>Job Title</th>
+            <th>Location</th>
+            <th>Job-Contact</th>
+          </tr>
+          <tr>
+            <td class="job-title">
+              busboy
+            </td>
+            <td class="job-location">
+              Texas
+            </td>
+            <td class="job-contact">
+              555-555-5555
+            </td>
+          </tr>
+          <tr>
+            <td class="job-title">
+              busboy
+            </td>
+            <td class="job-location">
+              Texas
+            </td>
+            <td class="job-contact">
+              555-555-5555
+            </td>
+          </tr>
+          <tr>
+            <td class="job-title">
+              busboy
+            </td>
+            <td class="job-location">
+              Texas
+            </td>
+            <td class="job-contact">
+              555-555-5555
+            </td>
+          </tr>
+          <tr>
+            <td class="job-title">
+              busboy
+            </td>
+            <td class="job-location">
+              Texas
+            </td>
+            <td class="job-contact">
+              555-555-5555
+            </td>
+          </tr>
+          <tr>
+            <td class="job-title">
+              busboy
+            </td>
+            <td class="job-location">
+              Texas
+            </td>
+            <td class="job-contact">
+              555-555-5555
+            </td>
+          </tr>
+        </table>
       </div>
-    </section>
 
-    <footer>
-      <h3> Job-Search By Joel and Luis at Google </h3>
-    </footer>
-
-  </body>
-
+  </div>
+</body>
+<footer>
+  <h2> By Joel, Luis, and Yves</h2>
+</footer>
 </html>
